@@ -1,0 +1,4 @@
+[submodule "competitive_programming"]
+	path = competitive_programming
+	url = https://github.com/fishy15/competitive_programming.git
+
