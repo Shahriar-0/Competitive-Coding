@@ -2,3 +2,9 @@
 	path = competitive_programming
 	url = https://github.com/fishy15/competitive_programming.git
 
+[submodule "ICPC"]
+	path = ICPC
+	url = https://github.com/hsnavarro/icpc-notebook.git
+[submodule "icpc-team-notebook-el-vasito"]
+	path = icpc-team-notebook-el-vasito
+	url = https://github.com/mhunicken/icpc-team-notebook-el-vasito.git
