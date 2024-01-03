@@ -1,0 +1,24 @@
+4 
+000001 Student1 
+000002 Student2 
+000003 Student3 
+000004 Student4 
+3
+01 Class1 2 
+02 Class2 2 
+03 Class3 2
+add 000001 01 
+add 000001 02 
+add 000002 01 
+add 000002 03 
+add 000003 01 
+add 000003 02 
+add 000004 01 
+add 000004 03 
+drop 000002 01 
+add 000002 02 
+setcap 01 5 
+drop 000003 02 
+add 000003 03 
+report
+student 000003
