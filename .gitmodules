@@ -7,3 +7,6 @@
 [submodule "icpc-team-notebook-el-vasito"]
 	path = icpc-team-notebook-el-vasito
 	url = https://github.com/mhunicken/icpc-team-notebook-el-vasito.git
+[submodule "ACM-ICPC-Algorithms"]
+	path = ACM-ICPC-Algorithms
+	url = https://github.com/matthewsamuel95/ACM-ICPC-Algorithms.git
