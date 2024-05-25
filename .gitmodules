@@ -13,3 +13,6 @@
 [submodule "stanfordacm"]
 	path = stanfordacm
 	url = https://github.com/jaehyunp/stanfordacm.git
+[submodule "KACTL"]
+	path = KACTL
+	url = https://github.com/kth-competitive-programming/kactl.git
