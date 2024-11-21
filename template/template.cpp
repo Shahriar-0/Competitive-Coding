@@ -24,14 +24,14 @@
 //       ++;while(j>b&&(255&s[o[j  ]      ]         )      >  a)j--;if(-i
 //   >=-j  ){ma1n(i,j,8);i++;j--;}}main   (         0    ,b,j);main(0,i,c);
 //        /*1999*/}}else{if(a>-25)main(a-1,0,0);main(0,r[25+a],r[26+a]-1);}}
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
+//
+//
+//
+//
+//
+//
+//
+//
 //                                      YO,T,S,U,Y,A,_,M,I,K,O=
 //                                   [2.0,0.1667,0.7,0.23,2.5,1.4,+
 //                                2020/9/21,0.5,3.7,0.35,0.7];eval(%w{
@@ -71,9 +71,9 @@
 //                                                                                    ack ('m'    )[0
 //                                                                                   ])  )}*
 //                                                                                 ""   )
-// 
-// 
-// 
+//
+//
+//
 //
 //                         /*2008[  */#ifdef/**/j
 //                   #include<GL/glut.h>/*]>++++[>>[*/
@@ -90,13 +90,13 @@
 // S=y+n*(z-y);return R+n*(S-R);     }C xy          (A      X,A Y,A Z,A U,A V,A W){k=Y*W-V*Z;l=
 // fW;m=(X*V)-U*Y;}C zx(){struct      timeval                T;gettimeofday(&T,NULL);g=T.tv_sec+T
 // ec*(10e-7);}C zy(C){zx();if(g   >=D){_=D;D                 =g +0.5+(rand()&32767)/8192.;E=s;F=t;G
-// ;O=s+s-o;P=t+t-p;Q=u+u-q;MN=v  +v-r;for(e                     =0;e++<8;){s=H(128);t=H(128);u=H(128);k=s-E;l=t           -F;m=u-// 
+// ;O=s+s-o;P=t+t-p;Q=u+u-q;MN=v  +v-r;for(e                     =0;e++<8;){s=H(128);t=H(128);u=H(128);k=s-E;l=t           -F;m=u-//
 // 0)break;}for(e=0;e++<8;){o=H( + 128)*0.4+               s;p  =t+0.4*H(128);q=u+0.4*H(128);k=o-s;l=p-t;m=q-// 1820)break;}v=
 // v+0.4*H(L);}for(n=(g-_)/(D-_);  d-c&&g-a[              (d)]. S>=20;d=(d+1)&511);if(g-a[c].S>=0.05){c=(c+1)&511;a[c].S=g;}b=
 // b->M=I(E,O,o,s);b->E=I(F,P,p,   t);b->K=I             (G,Q,q ,u);b->h=J(E,O,o,s);b->I=J(F,P,p,t);b->R=J(G,Q,q,u);if(
 // fb->h+b->I*( b->I)+b->R*b->R)    >M){;w=              sqrt (w);b->h/=w;b->I/=w;b->R/=w;}xy(b->h,b->I,b->R,0,0,1);b->A=1;b
 // i=0.;if((w=k *k+l*l+m*m)>M){w=     sqrt               (w);  b->A=k/w;b->H=l/w;b->i=m/w;}k=b->h;l=b->I;m=b->   R;x=sin(b->_=I(N,
-// );y=cos(b->_  );z=1-y;KA=k*l;NA                        =k   *m;TA=l*m;R=b->A;S=b->H;w=b->i;b->A=(z*k*k+y)*R+(      z*KA-m*x)*S+// 
+// );y=cos(b->_  );z=1-y;KA=k*l;NA                        =k   *m;TA=l*m;R=b->A;S=b->H;w=b->i;b->A=(z*k*k+y)*R+(      z*KA-m*x)*S+//
 // ;b->H=(z*KA+m  *x)*R+(z*l*l+y)*S+                           (z*TA-k*x)*w;b->i=(z*NA-l*x)*R+(z*TA+k*x)*S+(z*m*m            // =a[
 // fa[c].A;h[e][1]=a[c].E-16*a[c].H;h                          [e][2]=a[c].K-16*a[c].i;h[f=e+1]// ].A                      ;h[f][1]=
 // 16*a[c].H;h[f][02]=a[c].K+16*a[c].i;                       xy(a[c].h,a[c].I,a[c].R,a[c].A,a[c].H,a[c].i);i[f][0]=
@@ -115,9 +115,9 @@
 // spl ,ayFunc)(zy);glEnable(X);M =               1e-7;glShadeModel(GL_SMOOTH);glEnable((GL_NORMALIZE     ));;j(         glutKeybo,
 // yz  );glutIdleFunc(xz);j (gl,                  ut,  ReshapeFunc)(yx);X=GL_ONE;glEnable(j(GL,_LIGH,       T0));          glEnable
 // HT   ,ING));j(gl,BlendFu ,nc                         )(GL_SRC_ALPHA ,X);srand ((B)g);zx();D=a[0].S        =g-1;          o=H(128
-// .)    ;q=H(128);r=H(L);s  =                           t=u=N=c=d =0  ;j(gl,u,  tMainLoop)();j(ret,           ur,             // 
-// +[     >>+>+>>+>   +<<<<<                               <-]+++ +[    >>>>+<   <<<-]<]<-]>>>++>+++            */               // 
-// m/      #include/*                                       >+++  +     +>->-    --[>  */<math.h>/*              <                  // 
+// .)    ;q=H(128);r=H(L);s  =                           t=u=N=c=d =0  ;j(gl,u,  tMainLoop)();j(ret,           ur,             //
+// +[     >>+>+>>+>   +<<<<<                               <-]+++ +[    >>>>+<   <<<-]<]<-]>>>++>+++            */               //
+// m/      #include/*                                       >+++  +     +>->-    --[>  */<math.h>/*              <                  //
 // ude       /*<]<   [.                                                 <->      +]   [*/<stdio.h>
 // fine       j(X,                                                                   Y,Z)X##Y##Z
 // nclude       /*                                                                  */__FILE__
@@ -214,9 +214,9 @@ const long double PI  = acos(-1);
 #define eb               emplace_back
 #define ft               front()
 #define bk               back()
-#define REMAX(a,b)       (a) = max((a),(b)) 
+#define REMAX(a,b)       (a) = max((a),(b))
 #define REMIN(a,b)       (a) = min((a),(b))
-#define IN(i,l,r)        (l <  i && i <  r) 
+#define IN(i,l,r)        (l <  i && i <  r)
 #define LINR(i,l,r)      (l <= i && i <= r)
 #define LIN(i,l,r)       (l <= i && i <  r)
 #define INR(i,l,r)       (l <  i && i <= r)
@@ -655,7 +655,7 @@ void impossible(bool ex = true) {
 namespace UTILITY {
 template <typename T>
 ostream& operator<<(ostream& os, const vector<T>& vec) {
-    for (int i = 0; i < vec.size() - 1; i++) os << vec[i] << ' ';
+    for (std::vector<int>::size_type i = 0; i < vec.size() - 1; i++) os << vec[i] << ' ';
     os << vec.back() << '\n';
     return os;
 }
