@@ -127,7 +127,7 @@
 #include <bits/stdc++.h>
 #pragma GCC optimize("Ofast,unroll-loops")
 // #pragma GCC target("avx,avx2,fma")
-#pragma GCC optimization("O3")
+// #pragma GCC optimization("O3")
 using namespace std;
 using namespace __gnu_cxx;
 
@@ -708,6 +708,85 @@ template <typename Head, typename... Tail>
 void dbg_out(Head H, Tail... T) {
     cerr << ' ' << H;
     dbg_out(T...);
+}
+
+template <typename T>
+void dbg_out(const vector<T>& v) {
+    cerr << " [";
+    for (size_t i = 0; i < v.size(); ++i) {
+        if (i > 0) cerr << ", ";
+        cerr << v[i];
+    }
+    cerr << "]" << N;
+}
+
+template <typename T>
+void dbg_out(const vector<T>& v, int n) {
+    cerr << " [";
+    for (int i = 0; i < n; ++i) {
+        if (i > 0) cerr << ", ";
+        cerr << v[i];
+    }
+    cerr << "]" << N;
+}
+
+template <typename T>
+void dbg_out(const deque<T>& v) {
+    cerr << " [";
+    for (size_t i = 0; i < v.size(); ++i) {
+        if (i > 0) cerr << ", ";
+        cerr << v[i];
+    }
+    cerr << "]" << N;
+}
+
+template <typename T>
+void dbg_out(const set<T>& v) {
+    cerr << " [";
+    for (T x : v) cerr << x << ", ";
+    cerr << "]" << N;
+}
+
+template <typename T>
+void dbg_out(const multiset<T>& v) {
+    cerr << " [";
+    for (T x : v) cerr << x << ", ";
+    cerr << "]" << N;
+}
+
+template <typename T>
+void dbg_out(const unordered_set<T>& v) {
+    cerr << " [";
+    for (T x : v) cerr << x << ", ";
+    cerr << "]" << N;
+}
+
+template <typename T>
+void dbg_out(const unordered_multiset<T>& v) {
+    cerr << " [";
+    for (T x : v) cerr << x << ", ";
+    cerr << "]" << N;
+}
+
+template <typename T, typename U>
+void dbg_out(const map<T, U>& v) {
+    cerr << " [";
+    for (auto x : v) cerr << "(" << x.fi << ", " << x.se << ")), ";
+    cerr << "]" << N;
+}
+
+template <typename T, typename U>
+void dbg_out(const multimap<T, U>& v) {
+    cerr << " [";
+    for (auto x : v) cerr << "(" << x.fi << ", " << x.se << ")), ";
+    cerr << "]" << N;
+}
+
+template <typename T, typename U>
+void dbg_out(const unordered_map<T, U>& v) {
+    cerr << " [";
+    for (auto x : v) cerr << "(" << x.fi << ", " << x.se << ")), ";
+    cerr << "]" << N;
 }
 
 #ifndef ONLINE_JUDGE
