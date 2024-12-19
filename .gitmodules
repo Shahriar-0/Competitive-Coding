@@ -16,3 +16,6 @@
 [submodule "KACTL"]
 	path = KACTL
 	url = https://github.com/kth-competitive-programming/kactl.git
+[submodule "ACM-ICPC-training-records"]
+	path = ACM-ICPC-training-records
+	url = https://github.com/tshu-w/ICPC.git
