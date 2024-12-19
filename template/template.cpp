@@ -409,7 +409,7 @@ inline T Cone(T radius, T base, T height) {
     return (1 / 3) * PI * radius * radius * height;
 }
 }  // namespace GEOMETRY
-namespace better_priority_queue {
+namespace DATA_STRUCTURE {
 template <typename Key, typename Priority>
 struct priority_queue_node {
     Priority priority;
@@ -564,7 +564,8 @@ private:
         id_to_heappos[heap[heappos].key] = heappos;
     }
 };
-}  // namespace better_priority_queue
+}  // namespace DATA_STRUCTURE
+
 namespace std {
 template <class A, class B>
 struct hash<map<A, B>> {
@@ -801,7 +802,7 @@ using namespace IO;
 using namespace MATH;
 using namespace GEOMETRY;
 using namespace RNG;
-using namespace better_priority_queue;
+using namespace DATA_STRUCTURE;
 using namespace UTILITY;
 using namespace DEBUG;
 
