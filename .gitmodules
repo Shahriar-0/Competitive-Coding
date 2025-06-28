@@ -19,3 +19,6 @@
 [submodule "ACM-ICPC-training-records"]
 	path = ACM-ICPC-training-records
 	url = https://github.com/tshu-w/ICPC.git
+[submodule "awesome-competitive-programming"]
+	path = awesome-competitive-programming
+	url = https://github.com/lnishan/awesome-competitive-programming
