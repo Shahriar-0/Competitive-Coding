@@ -811,7 +811,7 @@ void solve();
 int main(void) {
     faster
 #ifndef ONLINE_JUDGE
-        clock_t start = clock();
+    clock_t start = clock();
 #endif
 
     int t = 1;
