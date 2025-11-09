@@ -1,5 +1,4 @@
 // let the dance be eternal - by @low_mist :)
-// clang-format off
 //                           long
 //                          q;;int                    o[
 //                          2000],l                  ,x=0
@@ -137,13 +136,13 @@ namespace DEFINE {
     cin.tie(NULL);                \
     cout.tie(NULL);
 
-constexpr char N      = '\n';
-constexpr char S      = ' ';
-const int MOD         = 1000000007;
+constexpr char N = '\n';
+constexpr char S = ' ';
+const int MOD = 1000000007;
 const long double EPS = 1e-9;
-const int INF         = (1 << 30) - 1;
+const int INF = (1 << 30) - 1;
 const long long INF64 = ((long long)1 << 62) - 1;
-const long double PI  = acos(-1);
+const long double PI = acos(-1);
 
 #define mp               make_pair
 #define vi               vector<int>
@@ -192,13 +191,13 @@ const long double PI  = acos(-1);
 #define ins              insert
 #define type(x)          __typeof(x)
 #define FOR(i, a, b)     for (int i = (int)(a); i < (int)(b); ++i)
-#define ROF(i, a, b)     for (int i = (int)((b)-1); i >= (int)(a); --i)
+#define ROF(i, a, b)     for (int i = (int)((b) - 1); i >= (int)(a); --i)
 #define F0R(i, n)        FOR(i, 0, n)
 #define R0F(i, n)        ROF(i, 0, n)
 #define F1R(i, n)        FOR(i, 1, n + 1)
 #define R1F(i, n)        ROF(i, 1, n + 1)
 #define FORK(i, a, b, c) for (int i = (int)(a); i < (int)(b); i += (int)(c))
-#define ROFK(i, a, b, c) for (int i = (int)((b)-1); i >= (int)(a); i -= (int)(c))
+#define ROFK(i, a, b, c) for (int i = (int)((b) - 1); i >= (int)(a); i -= (int)(c))
 #define fo(...)          VA_SEL(fo, __VA_ARGS__)
 #define of(...)          VA_SEL(of, __VA_ARGS__)
 #define inl              inline __attribute__((always_inline))
@@ -214,36 +213,36 @@ const long double PI  = acos(-1);
 #define eb               emplace_back
 #define ft               front()
 #define bk               back()
-#define REMAX(a,b)       (a) = max((a),(b))
-#define REMIN(a,b)       (a) = min((a),(b))
-#define IN(i,l,r)        (l <  i && i <  r)
-#define LINR(i,l,r)      (l <= i && i <= r)
-#define LIN(i,l,r)       (l <= i && i <  r)
-#define INR(i,l,r)       (l <  i && i <= r)
+#define REMAX(a, b)      (a) = max((a), (b))
+#define REMIN(a, b)      (a) = min((a), (b))
+#define IN(i, l, r)      (l < i && i < r)
+#define LINR(i, l, r)    (l <= i && i <= r)
+#define LIN(i, l, r)     (l <= i && i < r)
+#define INR(i, l, r)     (l < i && i <= r)
 
-template <class T> inline void sortall(T& t) { sort(all(t)); }
-template <class T> inline void uniqueall(T& t) { t.resize(unique(all(t)));}
+template <class T>
+inline void sortall(T& t) { sort(all(t)); }
+template <class T>
+inline void uniqueall(T& t) { t.resize(unique(all(t))); }
 
-#define powerof2(x) !(x & (x - 1))
-#define subset(a, b) (a & b == a)
-#define kbegin(k) ((1 << k) - 1)
-#define kend(k, n) ((kbegin(k) << n - k) + 1)
+#define powerof2(x)   !(x & (x - 1))
+#define subset(a, b)  (a & b == a)
+#define kbegin(k)     ((1 << k) - 1)
+#define kend(k, n)    ((kbegin(k) << n - k) + 1)
 #define fors(x, k, n) for (uint x = kbegin(k); x < kend(k, n); x = knext(x))
-
 
 typedef long double ld;
 typedef long long int64;
 typedef long long ll;
 typedef unsigned long long ull;
-// clang-format on
-}  // namespace DEFINE
+} // namespace DEFINE
 using namespace DEFINE;
 namespace RNG {
 // RANDOM NUMBER GENERATOR
 mt19937 RNG(chrono::steady_clock::now().time_since_epoch().count());
 #define SHUF(v) shuffle(all(v), RNG);
 // Use mt19937_64 for 64 bit random numbers.
-}  // namespace RNG
+} // namespace RNG
 namespace MATH {
 template <typename T>
 T gcd(T a, T b) {
@@ -334,22 +333,22 @@ T mod_inverse(T a, T n = MOD) {
     T d = extended_euclid(a, n, x, y);
     return (d > 1 ? -1 : mod_neg(x, z, n));
 }
-}  // namespace MATH
+} // namespace MATH
 namespace BITWISE {
 /* a=target variable, b=bit number to act upon 0-n */
-#define BIT_SET(a, b) ((a) |= (1ULL << (b)))
+#define BIT_SET(a, b)   ((a) |= (1ULL << (b)))
 #define BIT_CLEAR(a, b) ((a) &= ~(1ULL << (b)))
-#define BIT_FLIP(a, b) ((a) ^= (1ULL << (b)))
+#define BIT_FLIP(a, b)  ((a) ^= (1ULL << (b)))
 
 // '!!' to make sure this returns 0 or 1
 #define BIT_CHECK(a, b) (!!((a) & (1ULL << (b))))
 
-#define BITMASK_SET(x, mask) ((x) |= (mask))
-#define BITMASK_CLEAR(x, mask) ((x) &= (~(mask)))
-#define BITMASK_FLIP(x, mask) ((x) ^= (mask))
+#define BITMASK_SET(x, mask)       ((x) |= (mask))
+#define BITMASK_CLEAR(x, mask)     ((x) &= (~(mask)))
+#define BITMASK_FLIP(x, mask)      ((x) ^= (mask))
 #define BITMASK_CHECK_ALL(x, mask) (!(~(x) & (mask)))
 #define BITMASK_CHECK_ANY(x, mask) ((x) & (mask))
-}  // namespace BITWISE
+} // namespace BITWISE
 namespace GEOMETRY {
 template <typename T>
 inline T PointDistanceHorVer(T x1, T y1, T x2, T y2) {
@@ -399,16 +398,16 @@ inline T Sphere(T radius) {
 template <typename T>
 inline T CylinderB(T base, T height) {
     return base * height;
-}  // base and height
+} // base and height
 template <typename T>
 inline T CylinderR(T radius, T height) {
     return PI * radius * radius * height;
-}  // radius and height
+} // radius and height
 template <typename T>
 inline T Cone(T radius, T base, T height) {
     return (1 / 3) * PI * radius * radius * height;
 }
-}  // namespace GEOMETRY
+} // namespace GEOMETRY
 namespace DATA_STRUCTURE {
 template <typename Key, typename Priority>
 struct priority_queue_node {
@@ -470,7 +469,7 @@ public:
      * */
     bool set(const Key& key, const Priority& priority, bool only_if_higher = false) {
         if (key < id_to_heappos.size() &&
-            id_to_heappos[key] < ((size_t)-2))  // This key is already in the pQ
+            id_to_heappos[key] < ((size_t)-2)) // This key is already in the pQ
             return update(key, priority, only_if_higher);
         else
             return push(key, priority, only_if_higher);
@@ -480,10 +479,10 @@ public:
         if (key < id_to_heappos.size()) {
             size_t pos = id_to_heappos[key];
             if (pos < ((size_t)-2)) {
-                return {true, heap[pos].priority};
+                return { true, heap[pos].priority };
             }
         }
-        return {false, 0};
+        return { false, 0 };
     }
 
     /** Returns true if the key was not inside and was added, otherwise does nothing and returns
@@ -495,7 +494,7 @@ public:
         if (only_if_unknown && id_to_heappos[key] == ((size_t)-2)) return false;
         // otherwise we have id_to_heappos[key] = -1, unseen key
         size_t n = heap.size();
-        id_to_heappos[key] = n;  // For consistency in the case where nothing moves (early return)
+        id_to_heappos[key] = n; // For consistency in the case where nothing moves (early return)
         heap.emplace_back(key, priority);
         sift_up(n);
         return true;
@@ -512,7 +511,8 @@ public:
             priority = new_priority;
             sift_up(heappos);
             return true;
-        } else if (!only_if_higher && new_priority < priority) {
+        }
+        else if (!only_if_higher && new_priority < priority) {
             priority = new_priority;
             sift_down(heappos);
             return true;
@@ -531,8 +531,8 @@ private:
         size_t child = heappos * 2 + 1;
         if (len < 2 || child >= len) return;
         if (child + 1 < len && heap[child + 1] > heap[child])
-            ++child;                                 // Check whether second child is higher
-        if (!(heap[child] > heap[heappos])) return;  // Already in heap order
+            ++child;                                // Check whether second child is higher
+        if (!(heap[child] > heap[heappos])) return; // Already in heap order
 
         priority_queue_node<Key, Priority> val = std::move(heap[heappos]);
         do {
@@ -564,8 +564,7 @@ private:
         id_to_heappos[heap[heappos].key] = heappos;
     }
 };
-}  // namespace DATA_STRUCTURE
-
+} // namespace DATA_STRUCTURE
 namespace std {
 template <class A, class B>
 struct hash<map<A, B>> {
@@ -588,7 +587,7 @@ struct hash<pair<A, B>> {
         return hash<A>()(p.first) ^ cbitl(hash<B>()(p.second), sizeof(size_t) * 8 / 2);
     }
 };
-}  // namespace std
+} // namespace std
 namespace IO {
 void err_prefix(std::string func, int line) {
     std::cerr << "\033[0;31m\u001b[1mDEBUG\033[0m"
@@ -652,7 +651,7 @@ void impossible(bool ex = true) {
     cout.flush();
 #endif
 }
-}  // namespace IO
+} // namespace IO
 namespace UTILITY {
 template <typename T>
 ostream& operator<<(ostream& os, const vector<T>& vec) {
@@ -701,7 +700,7 @@ ostream& operator<<(ostream& os, const T_container& v) {
     for (const T& x : v) os << x << ", ";
     return os << '}';
 }
-}  // namespace UTILITY
+} // namespace UTILITY
 namespace DEBUG {
 void dbg_out() { cerr << endl; }
 
@@ -796,7 +795,7 @@ void dbg_out(const unordered_map<T, U>& v) {
 #else
 #define dbg(...)
 #endif
-}  // namespace DEBUG
+} // namespace DEBUG
 
 using namespace IO;
 using namespace MATH;
@@ -811,7 +810,7 @@ void solve();
 int main(void) {
     faster
 #ifndef ONLINE_JUDGE
-    clock_t start = clock();
+        clock_t start = clock();
 #endif
 
     int t = 1;
@@ -826,10 +825,11 @@ int main(void) {
     int num = (time == 0) ? 1 : log10(time) + 1;
     string stars = "****";
     while (num--) stars += "*";
-    cerr << stars << endl << "*" << time << "ms*" << endl << stars << endl;
+    cerr << stars << endl
+         << "*" << time << "ms*" << endl
+         << stars << endl;
 #endif
 }
 
 void solve() {
-
 }
